@@ -184,7 +184,7 @@ const AboutWork: React.FC<AboutWorkProps> = ({ setCurrentPage }) => {
               Get Free Quote
             </motion.button>
             <motion.a
-              href="tel:9068324872"
+              href="tel:7895848563"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="bg-green-600 text-white py-3 px-8 rounded-lg font-semibold hover:bg-green-700 transition-colors duration-300 flex items-center justify-center"
