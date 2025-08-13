@@ -1,7 +1,12 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ExternalLink, Phone, X } from 'lucide-react';
-
+import pufPanelToilet from '../assets/pufpaneltoilet.jpg';
+import pufPanelserventroom from '../assets/pufpanelserventroom.jpg';
+import pufPanelcoldroom from '../assets/pufpanelcoldroom.jpg';
+import windowsacstand from '../assets/windowacstand.jpg';
+import guardroom from '../assets/pufpanelguardroom.jpg';
+import slider from '../assets/slidingdoors.jpg'; 
 interface AboutWorkProps {
   setCurrentPage: (page: string) => void;
 }
@@ -55,45 +60,45 @@ const AboutWork: React.FC<AboutWorkProps> = ({ setCurrentPage }) => {
   const projects = [
     {
       id: 1,
-      title: 'Industrial Welding Project',
-      category: 'Welding Work',
-      image: 'https://images.pexels.com/photos/162553/keys-workshop-mechanic-tools-162553.jpeg?auto=compress&cs=tinysrgb&w=800',
-      description: 'Professional welding services for industrial equipment and structures.'
+      title: 'Puf Panel Toilet 4*12 Feet',
+      category: 'PUF TOILET',
+      image: pufPanelToilet,
+      description: 'High-quality PUF panel toilet construction with dimensions 4x12 feet, providing excellent insulation and durability.'
     },
     {
       id: 2,
-      title: 'Commercial Cold Room Installation',
-      category: 'Cold Rooms',
-      image: 'https://images.pexels.com/photos/4481259/pexels-photo-4481259.jpeg?auto=compress&cs=tinysrgb&w=800',
-      description: 'Complete cold storage solution for commercial food processing facility.'
+      title: 'Puf panel servant room size 15*30',
+      category: 'SERVENT ROOMS',
+      image: pufPanelserventroom,
+      description: 'Spacious 15x30 feet PUF panel servant room offering superior thermal insulation and soundproofing.'
     },
     {
       id: 3,
-      title: 'Custom Metal Fabrication',
-      category: 'Fabrication Works',
-      image: 'https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg?auto=compress&cs=tinysrgb&w=800',
-      description: 'Precision metal fabrication for architectural and industrial applications.'
+      title: 'Puf panel cold room 15*30',
+      category: 'COLD ROOMS',
+      image: pufPanelcoldroom,
+      description: 'Efficient 15x30 feet PUF panel cold room solution for optimal temperature control and energy efficiency.'
     },
     {
       id: 4,
-      title: 'Spiral Staircase Design',
-      category: 'Staircase',
-      image: 'https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=800',
-      description: 'Custom spiral staircase design and installation for modern buildings.'
+      title: 'Windows ac stand',
+      category: 'AC STAND',
+      image: windowsacstand,
+      description: 'Sturdy and durable window AC stand designed for secure installation and optimal air conditioning performance.'
     },
     {
       id: 5,
-      title: 'Structural Steel Work',
-      category: 'Fabrication Works',
-      image: 'https://images.pexels.com/photos/159306/construction-site-build-construction-work-159306.jpeg?auto=compress&cs=tinysrgb&w=800',
-      description: 'Heavy-duty structural steel fabrication for construction projects.'
+      title: 'Puff panel guard room size 6*4',
+      category: 'GUARD ROOM',
+      image: guardroom,
+      description: 'Compact 6x4 feet PUF panel guard room providing weather-resistant and comfortable security post solution.'
     },
     {
       id: 6,
-      title: 'Residential Staircase',
-      category: 'Staircase',
-      image: 'https://images.pexels.com/photos/1571463/pexels-photo-1571463.jpeg?auto=compress&cs=tinysrgb&w=800',
-      description: 'Elegant residential staircase with modern design elements.'
+      title: 'Sliding Doors',
+      category: 'WINDOWS AND DOORS',
+      image: slider,
+      description: 'Smooth-operating sliding doors with modern design, perfect for space-saving and elegant entryways.'
     }
   ];
 
@@ -128,11 +133,12 @@ const AboutWork: React.FC<AboutWorkProps> = ({ setCurrentPage }) => {
               whileHover={{ scale: 1.03 }}
               className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300"
             >
-              <div className="relative overflow-hidden">
+              <div className="relative" style={{ height: '250px', overflow: 'hidden' }}>
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="w-full h-48 object-cover transition-transform duration-300 hover:scale-110"
+                  className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+                  style={{ objectPosition: 'center' }}
                 />
                 <div className="absolute top-4 left-4">
                   <span className="bg-blue-600 text-white px-3 py-1 rounded-full text-sm font-medium">
@@ -184,7 +190,7 @@ const AboutWork: React.FC<AboutWorkProps> = ({ setCurrentPage }) => {
               Get Free Quote
             </motion.button>
             <motion.a
-              href="tel:7895848563"
+              href="tel:9068324872"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="bg-green-600 text-white py-3 px-8 rounded-lg font-semibold hover:bg-green-700 transition-colors duration-300 flex items-center justify-center"

@@ -98,10 +98,10 @@ const ContactUs = () => {
                   <div className="ml-4">
                     <h3 className="text-lg font-semibold text-gray-800">Phone</h3>
                     <a 
-                      href="tel:9068324872" 
+                      href="tel:+919068324872" 
                       className="text-blue-600 hover:text-blue-800 transition-colors"
                     >
-                      9068324872
+                      +91 90683 24872
                     </a>
                   </div>
               </motion.div>
@@ -116,6 +116,26 @@ const ContactUs = () => {
                 <div className="ml-4">
                   <h3 className="text-lg font-semibold text-gray-800">Service Area</h3>
                   <p className="text-gray-600">Available for projects nationwide</p>
+                </div>
+              </motion.div>
+
+              <motion.div
+                whileHover={{ scale: 1.02 }}
+                className="bg-white rounded-lg shadow-md overflow-hidden"
+              >
+                <div className="p-4">
+                  <h3 className="text-lg font-semibold text-gray-800 mb-3">Our Location</h3>
+                  <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13316.095506359945!2d77.44043235216247!3d27.799128014356505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39733c149827c409%3A0x8cb2583650bd10d2!2sKosikalan%20Rural%2C%20Uttar%20Pradesh%20281403!5e0!3m2!1sen!2sin!4v1755094157597!5m2!1sen!2sin" 
+                    width="100%" 
+                    height="300" 
+                    style={{ border: 0 }} 
+                    allowFullScreen 
+                    loading="lazy" 
+                    referrerPolicy="no-referrer-when-downgrade"
+                    title="Our Location"
+                    className="rounded-lg"
+                  ></iframe>
                 </div>
               </motion.div>
             </div>
