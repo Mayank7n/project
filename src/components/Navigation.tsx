@@ -33,7 +33,7 @@ const Navigation: React.FC<NavigationProps> = ({ currentPage, setCurrentPage }) 
             onClick={() => setCurrentPage('home')}
           >
             <Building2 className="w-8 h-8 text-blue-600 mr-2" />
-            <span className="text-xl font-bold text-gray-800">S.K Enterprises</span>
+            <span className="text-xl font-bold text-gray-800">S.K PUF Panel</span>
           </motion.div>
 
           {/* Desktop Navigation */}

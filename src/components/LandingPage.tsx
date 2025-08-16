@@ -26,7 +26,7 @@ const LandingPage = () => {
           transition={{ delay: 0.8, duration: 0.8 }}
           className="text-6xl md:text-7xl font-bold text-white mb-4"
         >
-          S.K Enterprises
+          S.K PUF Panel
         </motion.h1>
         
         <motion.p

@@ -37,7 +37,7 @@ const AboutUs = () => {
           className="text-center mb-16"
         >
           <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
-            About S.K Enterprises
+            About S.K PUF Panel
           </h1>
           <div className="w-24 h-1 bg-blue-600 mx-auto rounded-full"></div>
         </motion.div>
@@ -52,7 +52,7 @@ const AboutUs = () => {
           <h2 className="text-3xl font-bold text-gray-800 mb-6 text-center">Our Story</h2>
           <div className="prose prose-lg max-w-none text-gray-600">
             <p className="mb-6">
-              S.K Enterprises has been a trusted name in the engineering and fabrication industry, 
+              S.K PUF Panel has been a trusted name in the engineering and fabrication industry, 
               providing comprehensive solutions to meet diverse industrial and commercial needs. 
               Our journey began with a simple vision: to deliver exceptional quality and service 
               that exceeds our clients' expectations.

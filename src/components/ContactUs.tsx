@@ -142,7 +142,7 @@ const ContactUs = () => {
           </div>
 
             <div className="bg-gradient-to-r from-blue-600 to-indigo-700 text-white p-6 rounded-lg">
-              <h3 className="text-xl font-semibold mb-3">Why Choose S.K Enterprises?</h3>
+              <h3 className="text-xl font-semibold mb-3">Why Choose S.K PUF Panel?</h3>
               <ul className="space-y-2 text-blue-100">
                 <li>• Professional and experienced team</li>
                 <li>• Quality materials and workmanship</li>

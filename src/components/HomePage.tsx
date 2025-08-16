@@ -46,7 +46,7 @@ const HomePage: React.FC<HomePageProps> = ({ setCurrentPage }) => {
             transition={{ delay: 0.2, duration: 0.8 }}
             className="text-4xl md:text-6xl font-bold mb-6"
           >
-            Welcome to S.K Enterprises
+            Welcome to S.K PUF Panel
           </motion.h1>
           <motion.p
             initial={{ y: 50, opacity: 0 }}
@@ -139,7 +139,7 @@ const HomePage: React.FC<HomePageProps> = ({ setCurrentPage }) => {
             </div>
             <div className="text-center md:text-right">
               <p className="text-gray-400">
-                All Rights Reserved © S.K Enterprises
+                All Rights Reserved © S.K PUF Panel
               </p>
               <p className="text-gray-500 text-sm mt-2">
                 Owner: Bhoopendra Singh
