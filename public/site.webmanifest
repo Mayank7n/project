@@ -1,0 +1,9 @@
+{
+  "name": "S.K PUF Panel",
+  "short_name": "SK PUF Panel",
+  "description": "Leading manufacturer of PUF Panels, cold rooms, and fabrication works",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1e40af"
+}
